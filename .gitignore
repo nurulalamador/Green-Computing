@@ -1,0 +1,42 @@
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Downloaded EMNIST data (keep the small mapping files)
+/data/*.csv
+/data/emnist_source_files/
+
+# Generated reports, plots, and image-processing output
+/results/
+/debug/
+
+# CMake and compiled LibTorch artifacts
+/libtorch/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Local environment and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+1. Load and preprocess the EMNIST Balanced dataset.
+2. Build the lightweight CNN model.
+3. Train the CNN model using the PyTorch implementation.
+4. Save the trained PyTorch model.
+5. Export the trained model into TorchScript format for LibTorch deployment.
+6. Deploy the model using PyTorch and LibTorch separately.
+7. Measure model loading time, memory usage, and CPU usage during deployment.
+8. Prepare 100 single-character images for post-deployment prediction testing.
+9. Run prediction on the 100-image test set using PyTorch.
+10. Run prediction on the same 100-image test set using LibTorch.
+11. Measure prediction latency, throughput, CPU usage, memory usage, and temperature.
+12. Calculate training-phase, deployment-phase, and prediction-phase GCF scores.
+13. Compare PyTorch and LibTorch based on performance, resource efficiency, deployment overhead, prediction behavior, and sustainability.

@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "Win64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/lib/libtorch/include",
+        "C:/lib/libtorch/include/torch/csrc/api/include",
+        "C:/lib/opencv/build/include"
+      ],
+      "defines": [
+        "NOMINMAX",
+        "_WIN32"
+      ],
+      "compilerPath": "cl.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
+}
